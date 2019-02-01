@@ -2,7 +2,7 @@
   "name": "mergecss",
   "version": "1.0.0",
   "description": "Merge text files that have identical lines so that the output file has only unique lines. Specialized for CSS in that it keeps @media sections together, but it doesn't actually do semantic comparisons of the contents of those files.",
-  "main": "mergestylesheets.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +16,14 @@
   ],
   "author": "Colin MacAllister",
   "license": "ISC",
+  "bin": {
+    "mergecss": "./cli.js"
+  },
   "bugs": {
     "url": "https://github.com/dcoli/mergecss/issues"
   },
-  "homepage": "https://github.com/dcoli/mergecss#readme"
+  "homepage": "https://github.com/dcoli/mergecss#readme",
+  "dependencies": {
+    "execa": "^1.0.0"
+  }
 }

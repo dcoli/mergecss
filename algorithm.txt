@@ -1,0 +1,31 @@
+create lines:Set for global styles
+create a media:Map for media sections
+read a list of files, maybe all .css files in a directory
+loop: open files
+{	loop: read lines
+	{
+		if scan for ^@media (\([^\)]*)\)){
+		{	create an entry with that media type label or use existing. Have the label point to a Set. 
+			loop: take each line until }, and add to the current Set.
+			move past }
+		}
+		else add each line to lines:Set
+	} 
+	close file
+}
+create new outfile with date in name
+loop: lines:Set
+{
+	write line to outfile + \n
+}
+loop: media:Map
+{
+	write media declaration to outfile
+	loop: entries in media 
+	{
+		write line to outfile + \n
+	}
+	close media bracket + \n
+}
+close outfile
+
