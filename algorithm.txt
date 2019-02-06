@@ -1,3 +1,7 @@
+apify to crawl site, load page objects, then run css-steal on them.
+
+
+
 create lines:Set for global styles
 create a media:Map for media sections
 read a list of files, maybe all .css files in a directory

@@ -1,0 +1,3841 @@
+
+@media screen {
+
+html, body, div, span, h2, p, a, img, strong, ul, li, form, table, tbody, thead, tr, th, td {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  font-family:inherit;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+:focus {
+  outline:0;
+}
+
+body {
+  line-height:1;
+  color:black;
+  background:white;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+th, td {
+  text-align:left;
+  font-weight:normal;
+}
+
+}
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/global.css */
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family:Georgia,  serif;
+  font-size:small;
+  color:#222;
+}
+
+a img {
+  border:0;
+}
+
+h2 {
+  font-weight:normal;
+  clear:both;
+}
+
+p {
+  margin:.5em 0;
+  line-height:1.5em;
+}
+
+table td {
+  padding:0 1em;
+}
+
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/site.css */
+body {
+  background:#ccc;
+}
+
+#ical-link {
+  position:absolute;
+  display:none;
+  right:-10px;
+  top:10px;
+}
+
+div#content {
+  padding:1em 2em;
+}
+
+body {
+  padding:0 3%;
+}
+
+div#content {
+  margin-left:200px;
+}
+
+input {
+  padding:.2em;
+}
+
+#content h2 {
+  font-size:240%;
+}
+
+#footer {
+  border-top:2px #f3efc6 solid;
+  background-color:#f9f8eb;
+}
+
+ul.hmenu {
+  list-style-type:none;
+  margin:0;
+}
+
+ul.hmenu li {
+  float:left;
+  width:auto;
+  border-left:1px solid #999;
+  border-right:0;
+  padding-left:5px;
+  margin-left:8px;
+}
+
+ul.hmenu li.first {
+  border-left:0;
+  padding-left:0;
+  margin-left:0;
+}
+
+ul.page-tools {
+  font-size:90%;
+  float:right;
+  width:auto;
+}
+
+ul.page-tools a {
+  padding-top:.2em;
+  padding-bottom:.2em;
+}
+
+ul.page-tools a.print {
+  background:url(https://www.immigrationadvocates.org/images/icons/printer.png) 5px center no-repeat;
+  padding-left:25px;
+}
+
+ul.page-tools a.add-item {
+  background:url(https://www.immigrationadvocates.org/images/icons/document.png) 5px center no-repeat;
+  padding-left:25px;
+}
+
+a.rss {
+  background:url(https://www.immigrationadvocates.org/images/icons/rss.png) 5px center no-repeat;
+  padding-left:25px;
+}
+
+.last {
+  border-right:0!important;
+}
+
+div#m-header {
+  margin-bottom:1em;
+}
+
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/administrative-relief-all.css ;
+   media=all */
+div, span, ul, li {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  font-family:inherit;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body, div, span, h1, h2, h3, p, a, em, img, strong, ul, li, form {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  font-family:inherit;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+:focus {
+  outline:0;
+}
+
+body {
+  line-height:1;
+  color:black;
+  background:white;
+}
+
+}
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/global.css */
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family:Georgia,  serif;
+  font-size:small;
+  color:#222;
+}
+
+a img {
+  border:0;
+}
+
+h1, h2, h3 {
+  font-weight:normal;
+  clear:both;
+}
+
+h3 {
+  font-size:140%;
+  clear:both;
+}
+
+p {
+  margin:.5em 0;
+  line-height:1.5em;
+}
+
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/site.css */
+body {
+  background:#ccc;
+}
+
+.offset {
+  padding:.8em;
+}
+
+a.moreresults {
+  font-size:1.2em;
+  font-weight:bold;
+  background:url(https://www.immigrationadvocates.org/images/more-link-arrow.gif) 5px center no-repeat;
+  padding:.3em .3em .3em 15px;
+  margin:.5em 0;
+  float:left;
+  clear:both;
+  display:block;
+}
+
+a.more {
+  background:url(https://www.immigrationadvocates.org/images/more-link-arrow.gif) 0 5px no-repeat;
+  padding-left:10px;
+}
+
+body {
+  padding:0 3%;
+}
+
+input {
+  padding:.2em;
+}
+
+div.w_wysiwyg {
+  clear:both;
+}
+
+#footer {
+  border-top:2px #f3efc6 solid;
+  background-color:#f9f8eb;
+}
+
+.last {
+  border-right:0!important;
+}
+
+div.c_wysiwyg ul {
+  margin:1em 0 1em 2em;
+}
+
+div.c_wysiwyg {
+  line-height:1.5em;
+}
+
+div.c_wysiwyg img {
+  margin:.5em 1em;
+}
+
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/administrative-relief-all.css ;
+   media=all */
+@media only screen and (max-width:999px) {
+
+body {
+  min-width:320px;
+}
+
+#header {
+  padding:0 20px 13px 38px;
+}
+
+#header .links-holder {
+  width:81%;
+}
+
+#nav ul li {
+  margin:0 0 0 9px;
+}
+
+#nav ul li:after {
+  margin:0 0 0 -5px;
+}
+
+}
+body {
+  min-width:320px;
+}
+
+#header {
+  padding:0 20px 13px 38px;
+}
+
+#header .links-holder {
+  width:81%;
+}
+
+#nav ul li {
+  margin:0 0 0 9px;
+}
+
+#nav ul li:after {
+  margin:0 0 0 -5px;
+}
+
+.heading {
+  margin:0 20px 32px;
+}
+
+.column-holder {
+  text-align:center;
+  margin:0 12px 25px;
+}
+
+.column-holder .column {
+  margin:0 10px 20px;
+}
+
+.column-holder .text {
+  text-align:left;
+}
+
+.news-holder {
+  text-align:center;
+  margin:0 10px 17px 14px;
+}
+
+.news-holder .news {
+  text-align:left;
+  margin:0 10px 20px;
+}
+
+}
+@media only screen and (max-width:767px) {
+
+#nav .js-slide-hidden {
+  position:absolute!important;
+}
+
+.opener {
+  float:right;
+  width:40px;
+  height:40px;
+  background:#000;
+  background:rgba(0,  0,  0,  .5);
+  position:relative;
+  border-radius:3px;
+  display:block;
+  margin:0 48px 17px 0;
+}
+
+.opener:before, .opener:after, .opener span {
+  background:#fff;
+  border-radius:4px;
+  position:absolute;
+  top:50%;
+  left:25%;
+  right:25%;
+  height:4px;
+  margin-top:-2px;
+  transition:all 0.2s linear;
+}
+
+.opener:before, .opener:after {
+  content:'';
+  top:30%;
+}
+
+.opener:after {
+  top:70%;
+}
+
+.opener:hover {
+  opacity:.9;
+}
+
+#header {
+  padding:0 3% 10px;
+  position:relative;
+  text-align:center;
+}
+
+.logo:after, .logo:before {
+  display:none;
+}
+
+.logo {
+  float:none;
+  display:inline-block;
+  vertical-align:top;
+}
+
+#header .links-holder {
+  float:none;
+  width:inherit;
+}
+
+.links-holder .lang {
+  position:absolute;
+  right:10px;
+  top:10px;
+}
+
+#nav {
+  float:none;
+  position:absolute;
+  right:0;
+  top:45px;
+  width:100%;
+  z-index:2;
+}
+
+#nav ul {
+  overflow:hidden;
+  width:100%;
+  padding:5px 0;
+  background:rgba(0, 0, 0,  0.6);
+}
+
+#nav ul li {
+  float:none;
+  width:100%;
+}
+
+#nav ul li:after {
+  display:none;
+}
+
+#nav ul li {
+  margin:0;
+}
+
+#nav ul li a {
+  display:block;
+  padding:11px 10px 10px;
+  color:#fff;
+}
+
+#nav ul li a:hover {
+  background:#fed000;
+  color:#000;
+}
+
+.partners ul {
+  margin:0;
+  text-align:center;
+}
+
+.partners ul li {
+  margin:0 11px 10px;
+}
+
+.partners {
+  margin:0 15px 4px;
+}
+
+#footer {
+  text-align:center;
+}
+
+.copyright p {
+  margin:0 0 9px;
+}
+
+#footer .copyright {
+  float:none;
+  width:100%;
+}
+
+}
+#nav .js-slide-hidden {
+  position:absolute!important;
+}
+
+.opener {
+  float:right;
+  width:40px;
+  height:40px;
+  background:#000;
+  background:rgba(0,  0,  0,  .5);
+  position:relative;
+  border-radius:3px;
+  display:block;
+  margin:0 48px 17px 0;
+}
+
+.opener:before, .opener:after, .opener span {
+  background:#fff;
+  border-radius:4px;
+  position:absolute;
+  top:50%;
+  left:25%;
+  right:25%;
+  height:4px;
+  margin-top:-2px;
+  transition:all 0.2s linear;
+}
+
+.opener:before, .opener:after {
+  content:'';
+  top:30%;
+}
+
+.opener:after {
+  top:70%;
+}
+
+.opener:hover {
+  opacity:.9;
+}
+
+#header {
+  padding:0 3% 10px;
+  position:relative;
+  text-align:center;
+}
+
+.logo:after, .logo:before, .home .logo:after {
+  display:none;
+}
+
+.logo {
+  float:none;
+  display:inline-block;
+  vertical-align:top;
+}
+
+#header .links-holder {
+  float:none;
+  width:inherit;
+}
+
+.links-holder .lang {
+  position:absolute;
+  right:10px;
+  top:10px;
+}
+
+#nav {
+  float:none;
+  position:absolute;
+  right:0;
+  top:45px;
+  width:100%;
+  z-index:2;
+}
+
+#nav ul {
+  overflow:hidden;
+  width:100%;
+  padding:5px 0;
+  background:rgba(0, 0, 0,  0.6);
+}
+
+#nav ul li {
+  float:none;
+  width:100%;
+}
+
+#nav ul li:after {
+  display:none;
+}
+
+#nav ul li {
+  margin:0;
+}
+
+#nav ul li a {
+  display:block;
+  padding:11px 10px 10px;
+  color:#fff;
+}
+
+#nav ul li a:hover {
+  background:#fed000;
+  color:#000;
+}
+
+.partners h3 {
+  padding:0 19px;
+}
+
+.partners ul {
+  margin:0;
+  text-align:center;
+}
+
+.partners ul li {
+  margin:0 11px 10px;
+}
+
+.partners {
+  margin:0 15px 4px;
+}
+
+#footer {
+  text-align:center;
+}
+
+.copyright p {
+  margin:0 0 9px;
+}
+
+#footer .copyright {
+  float:none;
+  width:100%;
+}
+
+.visual img {
+  display:block;
+  width:125%;
+  height:auto;
+}
+
+.visual .caption:after {
+  background:none;
+}
+
+.visual .caption {
+  position:static;
+  width:inherit;
+  padding:20px 15px 10px;
+  border:0;
+}
+
+.column-holder {
+  margin:0 0 25px;
+}
+
+.news-holder {
+  margin:0 0 17px;
+}
+
+}
+@media only screen and (max-width:479px) {
+
+#header {
+  text-align:left;
+}
+
+}
+div#content {
+  padding:0!important;
+  margin:0 24px 33px 24px!important;
+  overflow:hidden;
+}
+
+div#m-header {
+  overflow:hidden;
+  text-align:center;
+}
+
+ul.page-tools {
+  margin-bottom:20px!important;
+}
+
+h2.tool {
+  margin:5px 0 5px 0;
+  font-size:26px!important;
+  line-height:28px;
+  font-weight:400;
+  color:#ffc600;
+  text-transform:uppercase;
+  clear:both!important;
+  float:none!important;
+}
+
+/*! CSS Used from: https://www.probono.net/ian2018-assets/ian.css */
+body, h2, #footer {
+  font-family:'Roboto',  sans-serif;
+  letter-spacing:0px!important;
+}
+
+body {
+  background:none;
+  color:#1f1f1f;
+}
+
+a {
+  color:#00BAD4;
+}
+
+#header, #main, #footer {
+  box-shadow:none!important;
+}
+
+body:not(.news) #main {
+  padding-top:40px;
+}
+
+#header {
+  padding:0;
+  height:105px;
+}
+
+#header .logo {
+  padding-top:25px;
+}
+
+#header .logo img {
+  display:none;
+}
+
+#header .logo a {
+  background-size:287px 62px!important;
+  float:left;
+  height:62px!important;
+  width:287px;
+}
+
+body.geo #header .logo a {
+  background:url(https://www.probono.net/ian2018-assets/images/ian-logos/IAN_logo.png) no-repeat;
+}
+
+#header .logo::after, #header .logo::before {
+  display:none;
+}
+
+#header .links-holder {
+  width:auto;
+}
+
+#header ul.lang {
+  padding:0;
+}
+
+#nav {
+  margin-top:50px;
+}
+
+#nav ul li {
+  margin-left:35px;
+}
+
+#nav ul li a {
+  text-transform:none;
+  font-weight:bold;
+  color:#F6871F;
+  font-size:14px;
+}
+
+#nav ul li:last-child a {
+  color:#00D4AD;
+}
+
+#nav ul li:after {
+  display:none;
+}
+
+div:not(.home) #content {
+  overflow:visible!important;
+}
+
+.partners {
+  float:left;
+}
+
+.partners ul {
+  width:100%;
+  margin:0px!important;
+  padding:0!important;
+  text-align:center;
+}
+
+.partners ul li {
+  display:inline-table;
+  width:19.6%;
+  margin:0!important;
+  padding:0!important;
+}
+
+.partners > div:not(#featured_on) ul li:last-child {
+  margin-left:30px!important;
+  width:230px;
+}
+
+#footer {
+  background:rgba(246,  160,  31,  0.07);
+  border:none;
+  height:200px;
+}
+
+#footer p, #footer p a {
+  color:#6D6D6D;
+}
+
+#footer .copyright, #footer p#powered-by {
+  float:left;
+  clear:none;
+}
+
+#footer .copyright {
+  width:33%;
+}
+
+#footer p#powered-by {
+  margin-top:15px;
+}
+
+#footer p#powered-by {
+  width:100%;
+  text-align:left;
+  margin:12px 0 20px;
+}
+
+#footer p#powered-by img {
+  height:18px;
+}
+
+#footer ul li img {
+  width:35px;
+  height:35px;
+}
+
+#footer ul li img:hover {
+  opacity:.8;
+}
+
+#footer ul {
+  float:right;
+  margin-top:5px;
+}
+
+#footer ul li {
+  list-style:none;
+  float:left;
+  margin-left:8px;
+}
+
+#vr-signup div {
+  width:33%;
+  float:left;
+  margin-top:10px;
+  font-size:14px;
+  text-align:center;
+}
+
+#vr-signup span {
+  color:#F6871F;
+  font-size:15px;
+}
+
+#vr-signup input[name="email_address"] {
+  margin:5px 5px 0 0;
+}
+
+#vr-signup input[type="submit"] {
+  border-radius:4px!important;
+  border:1px solid #ccc;
+  padding:3px 5px;
+  margin-top:5px;
+}
+
+#vr-signup input[type="submit"]:hover {
+  background:#ccc;
+}
+
+div#content {
+  margin:0!important;
+}
+
+#header {
+  text-align:left;
+}
+
+}
+/*! CSS Used from: https://www.probono.net/ian2018-assets/ian.css */
+body, h1, h2, h3, .news-holder ul, .partners h3, #footer {
+  font-family:'Roboto',  sans-serif;
+  letter-spacing:0px!important;
+}
+
+body {
+  background:none;
+  color:#1f1f1f;
+}
+
+a {
+  color:#00BAD4;
+}
+
+#header, #main, #footer {
+  box-shadow:none!important;
+}
+
+body:not(.news) #main {
+  padding-top:40px;
+}
+
+div.home #main {
+  padding-top:0;
+}
+
+#header {
+  padding:0;
+  height:105px;
+}
+
+#header .logo {
+  padding-top:25px;
+}
+
+#header .logo img, div.home .column.yellow a img, div.home .column.blue a img {
+  display:none;
+}
+
+#header .logo a {
+  background-size:287px 62px!important;
+  float:left;
+  height:62px!important;
+  width:287px;
+}
+
+body.geo #header .logo a {
+  background:url(https://www.probono.net/ian2018-assets/images/ian-logos/IAN_logo.png) no-repeat;
+}
+
+#header .logo::after, #header .logo::before {
+  display:none;
+}
+
+#header .links-holder {
+  width:auto;
+}
+
+#header ul.lang {
+  padding:0;
+}
+
+#nav {
+  margin-top:50px;
+}
+
+#nav ul li {
+  margin-left:35px;
+}
+
+#nav ul li a {
+  text-transform:none;
+  font-weight:bold;
+  color:#F6871F;
+  font-size:14px;
+}
+
+#nav ul li:last-child a {
+  color:#00D4AD;
+}
+
+#nav ul li:after {
+  display:none;
+}
+
+.visual, .visual > img {
+  height:367px;
+}
+
+div.home .visual > img {
+  display:none;
+}
+
+.visual .caption {
+  border:none;
+  width:385px;
+  padding:45px 40px 0 65px;
+}
+
+body.geo .visual .caption {
+  background:rgba(12,  12,  12,  .85);
+}
+
+.visual .caption:after {
+  height:367px;
+  border-width:0 70px 367px 0;
+  left:-70px;
+}
+
+body.geo .visual .caption:after {
+  border-right-color:rgba(12,  12,  12,  .85);
+}
+
+.visual h1, .visual p {
+  text-transform:none;
+  line-height:normal;
+}
+
+.visual h1 {
+  color:#fff;
+  font-weight:bold;
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+.visual p {
+  font-size:20px;
+  margin-bottom:30px;
+}
+
+body.geo .visual p {
+  color:#C4C4C4;
+}
+
+body.geo div.home .visual p {
+  font-size:18px;
+}
+
+body.geo div.home .visual .caption {
+  padding-top:35px;
+}
+
+.visual .more {
+  width:150px;
+  height:38px;
+  padding-top:6px;
+  font-size:16px;
+  font-weight:bold;
+  border:none;
+  box-shadow:0px 2px 0px rgba(0,  0,  0,  0.25);
+}
+
+.heading p {
+  text-transform:none;
+  font-family:'Roboto',  sans serif;
+  font-size:15px;
+}
+
+.partners {
+  float:left;
+}
+
+.column-holder {
+  margin-left:0;
+  margin-right:0;
+}
+
+.column-holder h2 {
+  text-transform:none;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.column-holder h2 a, .column-holder a {
+  color:#fff;
+}
+
+.column-holder h2 a:hover, .column-holder a:hover {
+  color:#fff;
+  text-decoration:none;
+}
+
+.column-holder p {
+  font-size:14px;
+  color:#fff;
+}
+
+.column-holder .column:hover {
+  box-shadow:0 3px 10px 0 rgba(0,  0,  0,  0.5);
+}
+
+.column-holder .column.yellow {
+  background:#00D4AD;
+}
+
+.column-holder .column.blue {
+  background:#00BAD4;
+}
+
+.column-holder .column.green {
+  background:#F6A01F;
+}
+
+.column-holder .column.yellow, .column-holder .column.blue, .column-holder .column.green {
+  width:316px;
+  height:345px;
+  margin:0;
+  border-bottom:none;
+}
+
+.column-holder .column.yellow {
+  margin-right:11px;
+}
+
+.column-holder .column.blue {
+  margin-left:7px;
+  margin-right:7px;
+}
+
+.column-holder .column.green {
+  margin-left:11px;
+  text-align:center;
+}
+
+.column-holder .column.green #right-column {
+  padding-top:60px;
+  height:345px;
+}
+
+.column-holder .column.green a, .column-holder .column.green h2 {
+  padding:0;
+}
+
+.column-holder .column.green h2 {
+  margin:18px 0;
+}
+
+.column-holder .column.green p#find-icon {
+  text-align:center;
+}
+
+.column-holder .column.green p#find-icon img {
+  width:84px;
+  height:84px;
+  margin-left:calc(50% - 42px);
+}
+
+.column-holder .column > a > img {
+  width:100%;
+  height:198px;
+  margin-bottom:0;
+}
+
+.column-holder .column.green > a > img {
+  display:none;
+}
+
+.column-holder .column #right-column {
+  padding:0 40px;
+}
+
+.column-holder .column #left-column, .column-holder .column #middle-column {
+  padding-top:30px;
+  padding-left:35px;
+  height:147px;
+}
+
+.column-holder .column #left-column div:before, .column-holder .column #middle-column div:before {
+  position:absolute;
+  content:"";
+  height:88px;
+  width:6px;
+  background:#fff;
+  margin-left:-20px;
+}
+
+.news-holder {
+  margin-left:0;
+  margin-right:0;
+}
+
+.news-holder .news {
+  width:316px;
+}
+
+.news-holder .news#news-leadin {
+  margin-left:0;
+  margin-right:11px;
+}
+
+.news-holder .news#events-leadin {
+  margin-left:7px;
+  margin-right:7px;
+}
+
+.news-holder .news#links-leadin {
+  margin-left:11px;
+  margin-right:0;
+}
+
+.news-holder h3 {
+  text-transform:none;
+  font-weight:bold;
+  font-size:14px;
+  color:#020202;
+}
+
+.news-holder ul li {
+  padding-left:0!important;
+  border-color:#F6D39F;
+  color:#6D6D6D;
+}
+
+.news-holder ul li:after {
+  display:none;
+}
+
+.news-holder ul em {
+  display:inline;
+}
+
+.news-holder ul li em {
+  font-size:13px;
+  font-weight:normal;
+  color:#6D6D6D;
+}
+
+.news-holder ul li em:before {
+  content:"(";
+}
+
+.news-holder ul li em:after {
+  content:")";
+}
+
+.news-holder ul li a {
+  color:#6D6D6D;
+}
+
+#partners h3 {
+  text-transform:none;
+  font-weight:bold;
+  font-size:14px;
+}
+
+#partners h3:before, #partners h3:after {
+  background:#F6D39F;
+}
+
+.partners ul {
+  width:100%;
+  margin:0px!important;
+  padding:0!important;
+  text-align:center;
+}
+
+.partners ul li {
+  display:inline-table;
+  width:19.6%;
+  margin:0!important;
+  padding:0!important;
+}
+
+.partners ul li .img-holder {
+  height:150px;
+  padding:0!important;
+  margin:0!important;
+  width:20%;
+  text-align:center!important;
+}
+
+.partners ul li .img-holder img {
+  padding:0!important;
+  margin:0!important;
+  width:100%;
+  max-width:150px;
+  height:auto!important;
+}
+
+.partners > div:not(#featured_on) ul li:last-child {
+  margin-left:30px!important;
+  width:230px;
+}
+
+.partners > div:not(#featured_on) ul li:last-child img {
+  max-width:230px!important;
+  width:230px!important;
+}
+
+#footer {
+  background:rgba(246,  160,  31,  0.07);
+  border:none;
+  height:200px;
+}
+
+#footer p, #footer p a {
+  color:#6D6D6D;
+}
+
+#footer .copyright, #footer p#powered-by {
+  float:left;
+  clear:none;
+}
+
+#footer .copyright {
+  width:33%;
+}
+
+#footer p#powered-by {
+  margin-top:15px;
+}
+
+#footer p#powered-by {
+  width:100%;
+  text-align:left;
+  margin:12px 0 20px;
+}
+
+#footer p#powered-by img {
+  height:18px;
+}
+
+#footer ul li img {
+  width:35px;
+  height:35px;
+}
+
+#footer ul li img:hover {
+  opacity:.8;
+}
+
+#footer ul {
+  float:right;
+  margin-top:5px;
+}
+
+#footer ul li {
+  list-style:none;
+  float:left;
+  margin-left:8px;
+}
+
+#vr-signup div {
+  width:33%;
+  float:left;
+  margin-top:10px;
+  font-size:14px;
+  text-align:center;
+}
+
+#vr-signup span {
+  color:#F6871F;
+  font-size:15px;
+}
+
+#vr-signup input[name="email_address"] {
+  margin:5px 5px 0 0;
+}
+
+#vr-signup input[type="submit"] {
+  border-radius:4px!important;
+  border:1px solid #ccc;
+  padding:3px 5px;
+  margin-top:5px;
+}
+
+#vr-signup input[type="submit"]:hover {
+  background:#ccc;
+}
+
+#subheader_copy h3 {
+  text-align:center;
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:20px;
+  text-transform:none;
+}
+
+@media (max-width: 999px) {
+
+#footer {
+  height:130px;
+}
+
+}
+.column-holder .column.yellow, .column-holder .column.green, .column-holder .column.blue, .news-holder .news {
+  width:300px;
+  margin:10px;
+}
+
+.column-holder {
+  text-align:center;
+  margin:0 12px 15px;
+}
+
+.column-holder .column.green .text {
+  text-align:center;
+}
+
+#footer {
+  height:130px;
+}
+
+}
+@media (max-width: 940px) {
+
+.partners ul li {
+  width:30%;
+}
+
+#nav ul li {
+  margin-left:16px;
+}
+
+}
+#nav ul li a {
+  font-size:13px;
+}
+
+body {
+  font-size:13px;
+  overflow:visible;
+}
+
+body:not([class*="home-page"]) #main {
+  margin:0 20px;
+}
+
+#footer::before, #footer::after {
+  display:initial;
+}
+
+content-display .list {
+  padding-left:0;
+  padding-right:0;
+}
+
+content-display .list .filters .filter-indicator {
+  font-size:14px;
+}
+
+content-display .rcMenu > ul {
+  margin-top:10px;
+  padding-top:0!important;
+}
+
+.partners ul li {
+  width:30%;
+}
+
+#nav ul li {
+  margin-left:16px;
+}
+
+}
+#nav ul li a {
+  font-size:13px;
+}
+
+@media (max-width: 767px) {
+
+#nav {
+  margin-top:0;
+}
+
+#nav a.opener {
+  margin-right:0;
+}
+
+#nav ul {
+  background:rgba(0, 0, 0, .8);
+}
+
+#nav ul li {
+  margin-left:0;
+}
+
+#nav ul li a:hover {
+  background:#F6A01F;
+  color:#000!important;
+}
+
+#footer .copyright {
+  width:50%;
+  text-align:left;
+  margin-top:0;
+  float:left;
+}
+
+#vr-signup div {
+  width:50%;
+  text-align:right;
+  margin:0 0 15px;
+}
+
+.partners > div:not(#featured_on) ul li:last-child {
+  margin-left:0px!important;
+  width:180px;
+}
+
+}
+#main {
+  margin-left:0!important;
+  ;
+       margin-right:0!important;
+}
+
+.hideInDesktop.link {
+  width:180px!important;
+  margin-top:-150px!important;
+  text-transform:uppercase;
+  font-size:13px!important;
+}
+
+body.geo .hideInDesktop.link {
+  color:#f6871f!important;
+}
+
+body.geo .hideInDesktop.link:after {
+  color:#f6871f!important;
+}
+
+content-display.calendarApp .asCalendar ul .rcevent {
+  width:calc(100% - 8px)!important;
+  margin:7px 7px 15px 4px!important;
+}
+
+body:not(.library) .content-info::before {
+  left:2px;
+}
+
+content-display.calendarApp .asCalendar ul .date, content-display.calendarApp .asCalendar ul .date .date-number {
+  font-size:24px!important;
+  margin-right:0!important;
+}
+
+body.geo content-display .list .filters .hotspot {
+  background-color:#fef2e7!important;
+}
+
+body.geo content-display .list .filters .hotspot {
+  border-color:#f57c0a!important;
+}
+
+content-display .list .filters .hotspot {
+  margin-right:0!important;
+}
+
+body.geo content-display .list .filters .filter-indicator {
+  background-color:#f57c0a!important;
+}
+
+.filters {
+  box-shadow:none!important;
+}
+
+.filter-indicator {
+  color:#fff;
+  text-transform:uppercase!important;
+}
+
+.filter-indicator:after {
+  color:#fff!important;
+}
+
+#header strong.logo, #header strong.logo a {
+  z-index:1!important;
+}
+
+#nav {
+  z-index:0!important;
+}
+
+.calendar .page-tools.hmenu {
+  top:-60px!important;
+}
+
+#nav a[href$="home/"] {
+  margin-right:0px!important;
+}
+
+#nav a[href$="home/"]:after {
+  content:""!important;
+  display:inline-block;
+  vertical-align:middle;
+  content:"";
+  width:0;
+  height:0;
+  border-style:solid;
+  border-width:4px 0 5px 5px;
+  border-color:transparent transparent transparent #F6871F;
+  margin-left:6px!important;
+  margin-top:-1px!important;
+}
+
+#nav a[href$="home/"]:hover:after, #nav .js-slide-hidden:first-of-type li:first-child:hover a[href$="home/"]:after {
+  border-width:5px 5px 0 4px;
+  border-color:#999 transparent transparent transparent;
+  margin-left:4px!important;
+  margin-right:-2px;
+}
+
+#nav .js-slide-hidden:first-of-type li:first-child:hover a[href$="home/"] {
+  color:#999;
+}
+
+#nav .dropdown-content.js-slide-hidden {
+  position:absolute!important;
+  left:-9999px;
+  top:-9999px;
+  background:#fff;
+  border-radius:4px;
+  width:215px;
+  padding:10px!important;
+  box-shadow:0px 10px 11px rgba(0,  0,  0,  0.5);
+}
+
+.dropdown-content li {
+  float:none!important;
+  padding:14px!important;
+  margin:0 0 0 50px!important;
+  font-size:14px;
+  font-weight:bold;
+}
+
+.dropdown-content li a:before {
+  content:"";
+  width:28px;
+  height:28px;
+  position:absolute;
+  left:-35px;
+  top:3px;
+  background-size:28px 28px!important;
+}
+
+body.geo .dropdown-content li a[href$='/nonprofit'] {
+  color:#00D4AD!important;
+}
+
+body.geo .dropdown-content li a[href$='/probono'] {
+  color:#00BAD4!important;
+}
+
+body.geo .dropdown-content li a[href$='/nonprofit']:hover, body.geo .dropdown-content li a[href$='/probono']:hover {
+  color:#999!important;
+}
+
+body.geo .dropdown-content li a[href$='/nonprofit']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/IAN_nonprofit_icon.png") no-repeat;
+  top:12px;
+}
+
+body.geo .dropdown-content li a[href$='/probono']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/IAN_probono_icon.png") no-repeat;
+  top:12px;
+}
+
+body.geo .dropdown-content li a[href$='calendar']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/calendar_icon_orange.png") no-repeat;
+}
+
+body.geo .dropdown-content li a[href$='news']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/news_icon_orange.png") no-repeat;
+}
+
+body.geo .dropdown-content li a[href$='legaldirectory']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/legal_directory_icon_orange.png") no-repeat;
+  background-size:30px 30px!important;
+  width:30px;
+  height:30px;
+  top:5px;
+}
+
+.dropdown-content li a {
+  color:#F6871F!important;
+}
+
+.dropdown-content li a:hover {
+  color:#999!important;
+}
+
+#nav .js-slide-hidden:first-of-type li:first-child:hover .dropdown-content.js-slide-hidden {
+  left:-30px!important;
+  top:20px!important;
+}
+
+#nav a[href$="home/"]:after {
+  display:none;
+}
+
+#nav ul li a {
+  font-size:15px;
+}
+
+.dropdown-content {
+  display:block;
+  position:relative;
+  left:0;
+  top:0;
+  background:none!important;
+  box-shadow:none;
+  padding:0!important;
+}
+
+.dropdown-content li {
+  margin:0!important;
+  background:none!important;
+  padding:0!important;
+}
+
+.dropdown-content li:hover {
+  background:#F6A01F!important;
+}
+
+.dropdown-content li a:hover {
+  color:#000!important;
+}
+
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/tools2.css ;
+   media=all */
+#content > #m-header > div:first-child {
+  width:100%;
+  display:inline-block;
+}
+
+.breaker {
+  margin-top:0px;
+}
+
+.page-tools.hmenu > li > a {
+  width:unset!important;
+}
+
+.page-tools.hmenu > li > a::after {
+  left:-5px;
+}
+
+.page-tools.hmenu > li:last-child > a {
+  margin-right:0;
+}
+
+.page-tools.hmenu {
+  float:right;
+}
+
+.page-tools.hmenu > li {
+  padding-left:5px;
+  padding-right:5px;
+  margin:0 0 12px 12px!important;
+  float:right;
+}
+
+.page-tools.hmenu > li > a {
+  display:block;
+}
+
+.page-tools.hmenu > li:before {
+  content:none;
+}
+
+content-display .filters {
+  position:absolute!important;
+  right:0!important;
+  z-index:10!important;
+}
+
+content-display .list .filters {
+  padding-top:0px;
+}
+
+#m-header {
+  height:110px;
+  margin-top:-50px;
+  padding-top:50px;
+}
+
+content-display .selected-filters {
+  width:60%;
+}
+
+.fc-row .fc-content-skeleton {
+  padding-bottom:0!important;
+}
+
+content-display .list .filters {
+  z-index:3;
+  height:46px;
+}
+
+content-display .hotspot:hover {
+  cursor:pointer;
+  text-decoration:none;
+}
+
+content-display .hotspot {
+  font-size:13px;
+}
+
+content-display .showing {
+  margin:13px 0 7px;
+  font-size:12px;
+}
+
+.ui-widget-header {
+  font-weight:bold;
+  font-size:13px;
+}
+
+content-display .date-control {
+  text-align:center;
+  font-size:18px;
+  font-weight:bold;
+}
+
+content-display .fc table {
+  font-size:13px;
+}
+
+content-display.calendarApp .small-calendar .colorKey {
+  font-size:12px;
+  line-height:1.8;
+}
+
+content-display.calendarApp .small-calendar .keyHasFocus::before, content-display.calendarApp .small-calendar .keyToday::before, content-display.calendarApp .small-calendar .keyHasEvent::before {
+  margin-top:3px;
+  width:14px;
+  height:14px;
+}
+
+content-display.calendarApp .asCalendar ul .date {
+  width:45px;
+  text-align:center;
+  font-size:14px;
+  line-height:1.2em;
+  border-radius:7px 0 0 7px;
+  color:#005a3d;
+}
+
+.date-number {
+  font-size:20px;
+  font-weight:bold;
+  border-left:5px solid transparent;
+  border-right:5px solid transparent;
+}
+
+content-display.calendarApp .asCalendar ul .hasCle {
+  font-weight:bold;
+}
+
+content-display .content-title {
+  font-size:17px;
+}
+
+.rcevent .organization {
+  clear:none;
+  padding-left:0;
+}
+
+.list ul {
+  padding-left:0;
+}
+
+content-display li:hover {
+  cursor:unset;
+}
+
+content-display.calendarApp .asCalendar ul .rcevent {
+  margin:0;
+}
+
+.fc-toolbar {
+  z-index:1;
+  position:relative;
+}
+
+content-display .list .filters, content-display .list .filters .filter-indicator {
+  background:#d3db9c;
+}
+
+content-display .filter-indicator::after {
+  color:#fff;
+}
+
+content-display .list .hotspot::after {
+  border-color:#fff transparent transparent transparent;
+}
+
+content-display .showing {
+  color:#2b2b2b;
+}
+
+content-display .selected-filter {
+  background:rgb(225,  239,  255);
+}
+
+content-display.calendarApp .asCalendar ul .date {
+  background:#d3db9c;
+  color:inherit;
+}
+
+content-display.calendarApp .asCalendar ul .content-title {
+  color:#3994ff;
+}
+
+content-display.calendarApp .asCalendar ul .hasCle {
+  background:#009148;
+  color:#fff;
+}
+
+content-display.calendarApp .asCalendar ul .rcevent {
+  border-color:#92a408;
+}
+
+content-display.calendarApp .asCalendar ul .event-info {
+  color:#000;
+}
+
+content-display .link {
+  color:#006be6!important;
+}
+
+.hideInMobile.link {
+  position:relative;
+  z-index:1;
+  font-weight:bold;
+  font-size:16px;
+  line-height:20px;
+  padding:0 0 0 12px;
+  margin-bottom:9px;
+  width:50%;
+}
+
+.hideInMobile.link:after {
+  content:"\f104";
+  font-family:FontAwesome;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+  color:#000;
+  font-size:16px;
+  padding-right:.5em;
+  position:absolute;
+  top:45%;
+  -webkit-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  transform:translateY(-50%);
+  left:0;
+}
+
+content-display.calendarApp .small-calendar .date-control {
+  border-color:#002b58;
+}
+
+content-display.calendarApp .small-calendar .date-control a::after {
+  border-color:transparent #000000 transparent transparent;
+}
+
+content-display.calendarApp .small-calendar .date-control a.rcnext::after {
+  border-color:transparent transparent transparent #000000;
+}
+
+.ui-widget-header {
+  border-color:#002b58!important;
+  background:#B2BFCC url("https://www.immigrationadvocates.org/styles/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x!important;
+  color:#222222!important;
+}
+
+content-display.calendarApp .small-calendar .asCalendar .fc-body .rcHasEvent {
+  background:#464646;
+  color:#fff;
+}
+
+content-display.calendarApp .small-calendar .asCalendar .fc-body .rcHasFocus {
+  background:#EFEFEF;
+}
+
+content-display.calendarApp .small-calendar .asCalendar .fc-body .rcHasEvent.rcHasFocus {
+  background:#92a322;
+  color:#fff;
+}
+
+content-display.calendarApp .small-calendar .asCalendar .fc-body td {
+  border-color:#002b58;
+  background:#fff;
+}
+
+content-display.calendarApp .small-calendar .asCalendar .fc-body .fc-today, content-display.calendarApp .small-calendar .asCalendar .fc-body .rcHasFocus.fc-today {
+  background:#E9ECCF;
+}
+
+content-display.calendarApp .small-calendar .asCalendar .fc-body .fc-other-month {
+  color:#fff;
+}
+
+content-display.calendarApp .small-calendar .keyHasFocus::before {
+  background:#efefef;
+}
+
+content-display.calendarApp .small-calendar .keyToday::before {
+  background:#E9ECCF;
+}
+
+content-display.calendarApp .small-calendar .keyHasEvent::before {
+  background:#464646;
+}
+
+content-display.calendarApp .small-calendar .keyHasEvent.keyHasFocus::before {
+  background:#92a322;
+}
+
+content-display .selected-filters {
+  width:70%;
+}
+
+content-display .showing {
+  margin:0 0 5px;
+  font-size:11px;
+}
+
+.page-tools.hmenu {
+  top:13px;
+  margin:0;
+  padding-left:0;
+}
+
+content-display.calendarApp .small-calendar {
+  margin-top:0;
+}
+
+content-display .list .filters {
+  width:70px;
+}
+
+content-display .list .filters .filter-indicator {
+  text-transform:capitalize;
+  padding-top:10.5px;
+}
+
+content-display .list .filters .filter-indicator::after {
+  top:12px!important;
+  font-size:18px!important;
+}
+
+content-display .list .filters .hotspot {
+  font-weight:normal;
+}
+
+.hideInDesktop.link {
+  font-size:15px;
+  line-height:14px;
+  padding:10px 15px 11px 22px;
+  font-weight:bold;
+  position:absolute;
+  top:240px;
+}
+
+.hideInDesktop.link:after {
+  content:"\f104";
+  font-family:FontAwesome;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+  font-size:20px;
+  padding-right:.5em;
+  position:absolute;
+  left:3px;
+  top:16px;
+  margin:0;
+  color:#000;
+  -webkit-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  transform:translateY(-50%);
+}
+
+.hideInDesktop {
+  font-size:13px;
+}
+
+.date-control {
+  margin-bottom:-20px!important;
+}
+
+content-display.calendarApp .asCalendar ul {
+  padding:0;
+}
+
+content-display.calendarApp .asCalendar ul .date {
+  height:24px;
+  width:100%;
+  border-radius:0;
+  text-align:left;
+}
+
+.date-number {
+  border:none;
+  font-weight:bold!important;
+}
+
+a.print {
+  display:none;
+}
+
+content-display .list .filters .hotspot {
+  background:#F4F6E7;
+  border-color:#d3db9c;
+}
+
+content-display .list .filters .hotspot::after {
+  color:inherit;
+}
+
+#m-header {
+  position:relative;
+  z-index:1;
+}
+
+#m-header {
+  height:105px;
+}
+
+#m-header > div:after {
+  display:block;
+  content:'';
+}
+
+.page-tools.hmenu > li > a {
+  width:68px;
+  font-size:7pt;
+  line-height:7pt;
+  text-decoration:none;
+  padding-left:4px;
+  padding-right:4px;
+}
+
+.page-tools.hmenu > li > a:hover {
+  opacity:0.8;
+}
+
+.page-tools.hmenu {
+  margin-top:13px;
+  margin-bottom:5px;
+}
+
+.page-tools.hmenu > li {
+  margin:0;
+  padding:0;
+  display:inline-block;
+  vertical-align:middle;
+  position:relative;
+}
+
+.page-tools.hmenu > li > a.add-item:before {
+  text-align:center;
+  color:#002b57;
+  display:block;
+}
+
+#m-header {
+  z-index:9;
+}
+
+body.geo content-display .list .filters .hotspot, body.geo content-display .list .filters .rcMenu.radio.active .rcMenuItem, body.geo content-display .list .filters .rcMenu.active .rcMenuItem {
+  background-color:#fef2e7!important;
+}
+
+body.geo content-display .list .filters .hotspot, body.geo content-display .list .filters .rcMenu.radio.active .rcMenuItem, body.geo content-display .list .filters .rcMenu.active .rcMenuItem, body.geo content-display .list .filters .rcMenu.active .hotspot {
+  border-color:#f57c0a!important;
+}
+
+body.geo content-display .list .filters .rcMenu.active, body.geo content-display .list .filters .rcMenu.active .hotspot {
+  background-color:#f57c0a!important;
+}
+
+content-display .list .filters .rcMenu.active .hotspot, content-display .list .filters .rcMenu.active .hotspot:after {
+  color:#fff!important;
+}
+
+content-display .list > .filters > span > .rcMenu .rcMenuItem.rcSelected::after {
+  top:17px!important;
+  left:17px!important;
+}
+
+content-display .list .filters .rcMenu.active .hotspot::after {
+  top:12px!important;
+  font-size:18px!important;
+}
+
+content-display .rcMenu > ul {
+  top:0!important;
+  width:unset;
+}
+
+content-display .list .filters .rcMenu.active .hotspot {
+  position:relative;
+  top:-46px;
+  border:1px solid #bbb;
+  font-weight:bold;
+}
+
+content-display .list .filters .rcMenu.active .hotspot::after {
+  color:#fff;
+}
+
+content-display .list .filters .rcMenu.radio.active .rcMenuItem, content-display .list .filters .rcMenu.active .rcMenuItem {
+  width:260px;
+  white-space:normal;
+  word-break:keep-all;
+}
+
+content-display .list .filters .rcMenu.active .rcMenuItem {
+  padding-left:40px;
+}
+
+content-display .list .filters .rcMenu .rcMenuItem > span:first-child:before {
+  top:15px!important;
+  left:15px!important;
+}
+
+content-display .list > .filters > span > .rcMenu .rcMenuItem.rcSelected::after {
+  left:25px;
+  top:18px;
+}
+
+content-display .list .filters .hotspot, content-display .list .filters .rcMenu.radio.active .rcMenuItem, content-display .list .filters .rcMenu.active .rcMenuItem {
+  background:#F4F6E7;
+  border-color:#d3db9c;
+}
+
+content-display .list .filters .rcMenu.active .hotspot {
+  background:#d3db9c;
+  border-color:#d3db9c;
+}
+
+.visual .caption:after {
+  background:none;
+}
+
+.visual .caption {
+  position:static;
+  top:0;
+  right:0;
+  width:100%;
+  padding:20px 15px 10px;
+  border:0;
+}
+
+.visual {
+  height:auto;
+}
+
+.visual img {
+  display:block;
+  width:125%;
+  height:auto;
+}
+
+.visual .thickbox img {
+  display:none;
+}
+
+.visual p:last-child {
+  text-align:center;
+}
+
+body.geo div.home .visual img {
+  margin-left:-270px;
+}
+
+#nav {
+  margin-top:0;
+}
+
+#nav a.opener {
+  margin-right:0;
+}
+
+#nav ul {
+  background:rgba(0, 0, 0, .8);
+}
+
+#nav ul li {
+  margin-left:0;
+}
+
+#nav ul li a:hover {
+  background:#F6A01F;
+  color:#000!important;
+}
+
+#footer .copyright {
+  width:50%;
+  text-align:left;
+  margin-top:0;
+  float:left;
+}
+
+#vr-signup div {
+  width:50%;
+  text-align:right;
+  margin:0 0 15px;
+}
+
+body.geo .visual .caption {
+  background:rgb(12,  12,  12);
+}
+
+.partners > div:not(#featured_on) ul li:last-child {
+  margin-left:0px!important;
+  width:180px;
+}
+
+.partners > div:not(#featured_on) ul li:nth-last-child(2) img {
+  max-width:150px!important;
+}
+
+.partners > div:not(#featured_on) ul li:last-child img {
+  max-width:180px!important;
+}
+
+}
+#main {
+  margin-left:0!important;
+  ;
+       margin-right:0!important;
+}
+
+#header strong.logo, #header strong.logo a {
+  z-index:1!important;
+}
+
+#nav {
+  z-index:0!important;
+}
+
+#nav a[href$="home/"] {
+  margin-right:0px!important;
+}
+
+#nav a[href$="home/"]:after {
+  content:""!important;
+  display:inline-block;
+  vertical-align:middle;
+  content:"";
+  width:0;
+  height:0;
+  border-style:solid;
+  border-width:4px 0 5px 5px;
+  border-color:transparent transparent transparent #F6871F;
+  margin-left:6px!important;
+  margin-top:-1px!important;
+}
+
+#nav a[href$="home/"]:hover:after, #nav .js-slide-hidden:first-of-type li:first-child:hover a[href$="home/"]:after {
+  border-width:5px 5px 0 4px;
+  border-color:#999 transparent transparent transparent;
+  margin-left:4px!important;
+  margin-right:-2px;
+}
+
+#nav .js-slide-hidden:first-of-type li:first-child:hover a[href$="home/"] {
+  color:#999;
+}
+
+#nav .dropdown-content.js-slide-hidden {
+  position:absolute!important;
+  left:-9999px;
+  top:-9999px;
+  background:#fff;
+  border-radius:4px;
+  width:215px;
+  padding:10px!important;
+  box-shadow:0px 10px 11px rgba(0,  0,  0,  0.5);
+}
+
+.dropdown-content li {
+  float:none!important;
+  padding:14px!important;
+  margin:0 0 0 50px!important;
+  font-size:14px;
+  font-weight:bold;
+}
+
+.dropdown-content li a:before {
+  content:"";
+  width:28px;
+  height:28px;
+  position:absolute;
+  left:-35px;
+  top:3px;
+  background-size:28px 28px!important;
+}
+
+body.geo .dropdown-content li a[href$='/nonprofit'] {
+  color:#00D4AD!important;
+}
+
+body.geo .dropdown-content li a[href$='/probono'] {
+  color:#00BAD4!important;
+}
+
+body.geo .dropdown-content li a[href$='/nonprofit']:hover, body.geo .dropdown-content li a[href$='/probono']:hover {
+  color:#999!important;
+}
+
+body.geo .dropdown-content li a[href$='/nonprofit']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/IAN_nonprofit_icon.png") no-repeat;
+  top:12px;
+}
+
+body.geo .dropdown-content li a[href$='/probono']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/IAN_probono_icon.png") no-repeat;
+  top:12px;
+}
+
+body.geo .dropdown-content li a[href$='calendar']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/calendar_icon_orange.png") no-repeat;
+}
+
+body.geo .dropdown-content li a[href$='news']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/news_icon_orange.png") no-repeat;
+}
+
+body.geo .dropdown-content li a[href$='legaldirectory']:before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/legal_directory_icon_orange.png") no-repeat;
+  background-size:30px 30px!important;
+  width:30px;
+  height:30px;
+  top:5px;
+}
+
+.dropdown-content li a {
+  color:#F6871F!important;
+}
+
+.dropdown-content li a:hover {
+  color:#999!important;
+}
+
+#nav .js-slide-hidden:first-of-type li:first-child:hover .dropdown-content.js-slide-hidden {
+  left:-30px!important;
+  top:20px!important;
+}
+
+#nav a[href$="home/"]:after {
+  display:none;
+}
+
+#nav ul li a {
+  font-size:15px;
+}
+
+.dropdown-content {
+  display:block;
+  position:relative;
+  left:0;
+  top:0;
+  background:none!important;
+  box-shadow:none;
+  padding:0!important;
+}
+
+.dropdown-content li {
+  margin:0!important;
+  background:none!important;
+  padding:0!important;
+}
+
+.dropdown-content li:hover {
+  background:#F6A01F!important;
+}
+
+.dropdown-content li a:hover {
+  color:#000!important;
+}
+
+/*! CSS Used from: Embedded */
+#cover {
+  position:fixed;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background:white;
+  opacity:100%;
+  z-index:9999;
+  -webkit-transition:opacity .3s;
+  transition:opacity .3s;
+}
+
+.js-slide-hidden {
+  position:absolute!important;
+  left:-9999px!important;
+  top:-9999px!important;
+  display:block!important;
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family:'din_mediumregular';
+  src:url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.eot');
+  src:url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.eot#iefix') format('embedded-opentype'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.woff2') format('woff2'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.woff') format('woff'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.ttf') format('truetype'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.svg#din_mediumregular') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:'dinbold';
+  src:url('https://www.immigrationadvocates.org/styles/fonts/din-bold-webfont.eot');
+  src:url('https://www.immigrationadvocates.org/styles/fonts/din-bold-webfont.eot#iefix') format('embedded-opentype'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-bold-webfont.woff2') format('woff2'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-bold-webfont.woff') format('woff'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-bold-webfont.ttf') format('truetype'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-bold-webfont.svg#dinbold') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Udc1UAw.woff2) format('woff2');
+  unicode-range:U+0460-052F,  U+1C80-1C88,  U+20B4,  U+2DE0-2DFF,  U+A640-A69F,  U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0ddc1UAw.woff2) format('woff2');
+  unicode-range:U+0400-045F,  U+0490-0491,  U+04B0-04B1,  U+2116;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Vdc1UAw.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0adc1UAw.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Wdc1UAw.woff2) format('woff2');
+  unicode-range:U+0102-0103,  U+0110-0111,  U+1EA0-1EF9,  U+20AB;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Xdc1UAw.woff2) format('woff2');
+  unicode-range:U+0100-024F,  U+0259,  U+1E00-1EFF,  U+2020,  U+20A0-20AB,  U+20AD-20CF,  U+2113,  U+2C60-2C7F,  U+A720-A7FF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format('woff2');
+  unicode-range:U+0000-00FF,  U+0131,  U+0152-0153,  U+02BB-02BC,  U+02C6,  U+02DA,  U+02DC,  U+2000-206F,  U+2074,  U+20AC,  U+2122,  U+2191,  U+2193,  U+2212,  U+2215,  U+FEFF,  U+FFFD;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+  unicode-range:U+0460-052F,  U+1C80-1C88,  U+20B4,  U+2DE0-2DFF,  U+A640-A69F,  U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');
+  unicode-range:U+0400-045F,  U+0490-0491,  U+04B0-04B1,  U+2116;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format('woff2');
+  unicode-range:U+0102-0103,  U+0110-0111,  U+1EA0-1EF9,  U+20AB;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
+  unicode-range:U+0100-024F,  U+0259,  U+1E00-1EFF,  U+2020,  U+20A0-20AB,  U+20AD-20CF,  U+2113,  U+2C60-2C7F,  U+A720-A7FF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+  unicode-range:U+0000-00FF,  U+0131,  U+0152-0153,  U+02BB-02BC,  U+02C6,  U+02DA,  U+02DC,  U+2000-206F,  U+2074,  U+20AC,  U+2122,  U+2191,  U+2193,  U+2212,  U+2215,  U+FEFF,  U+FFFD;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range:U+0460-052F,  U+1C80-1C88,  U+20B4,  U+2DE0-2DFF,  U+A640-A69F,  U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range:U+0400-045F,  U+0490-0491,  U+04B0-04B1,  U+2116;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range:U+0102-0103,  U+0110-0111,  U+1EA0-1EF9,  U+20AB;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range:U+0100-024F,  U+0259,  U+1E00-1EFF,  U+2020,  U+20A0-20AB,  U+20AD-20CF,  U+2113,  U+2C60-2C7F,  U+A720-A7FF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range:U+0000-00FF,  U+0131,  U+0152-0153,  U+02BB-02BC,  U+02C6,  U+02DA,  U+02DC,  U+2000-206F,  U+2074,  U+20AC,  U+2122,  U+2191,  U+2193,  U+2212,  U+2215,  U+FEFF,  U+FFFD;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+  unicode-range:U+0460-052F,  U+1C80-1C88,  U+20B4,  U+2DE0-2DFF,  U+A640-A69F,  U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');
+  unicode-range:U+0400-045F,  U+0490-0491,  U+04B0-04B1,  U+2116;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+  unicode-range:U+0102-0103,  U+0110-0111,  U+1EA0-1EF9,  U+20AB;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');
+  unicode-range:U+0100-024F,  U+0259,  U+1E00-1EFF,  U+2020,  U+20A0-20AB,  U+20AD-20CF,  U+2113,  U+2C60-2C7F,  U+A720-A7FF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+  unicode-range:U+0000-00FF,  U+0131,  U+0152-0153,  U+02BB-02BC,  U+02C6,  U+02DA,  U+02DC,  U+2000-206F,  U+2074,  U+20AC,  U+2122,  U+2191,  U+2193,  U+2212,  U+2215,  U+FEFF,  U+FFFD;
+}
+
+
+body.geo content-display .list .filters .hotspot, body.geo content-display .list .filters .rcMenu.active .rcMenuItem {
+  background-color:#fef2e7!important;
+}
+
+body.geo content-display .list .filters .hotspot, body.geo content-display .list .filters .rcMenu.active .rcMenuItem, body.geo content-display .list .filters .rcMenu.active .hotspot {
+  border-color:#f57c0a!important;
+}
+
+content-display .list .filters .rcMenu.active .rcMenuItem {
+  width:260px;
+  white-space:normal;
+  word-break:keep-all;
+}
+
+content-display .list .filters .hotspot, content-display .list .filters .rcMenu.active .rcMenuItem {
+  background:#F4F6E7;
+  border-color:#d3db9c;
+}
+
+@media (max-width: 600px) {
+
+.partners ul li, .partners > div:not(#featured_on) ul li:last-child, .partners > div:not(#featured_on) ul li:nth-last-child(2) {
+  width:45%;
+}
+
+#footer .copyright {
+  width:100%;
+}
+
+#vr-signup div, #footer ul {
+  width:100%;
+  text-align:center!important;
+}
+
+#footer ul {
+  margin-left:calc(50% - 86px);
+  float:left;
+}
+
+#footer {
+  height:280px;
+  padding-left:0;
+  padding-right:0;
+}
+
+#footer .copyright p, #footer p#powered-by {
+  text-align:center;
+}
+
+#footer p#powered-by {
+  width:100%;
+}
+
+#footer .copyright p:last-child {
+  width:98%;
+}
+
+#vr-signup div {
+  line-height:30px;
+}
+
+#vr-signup span {
+  width:100%;
+  float:left;
+}
+
+}
+.partners ul li, .partners > div:not(#featured_on) ul li:last-child, .partners > div:not(#featured_on) ul li:nth-last-child(2) {
+  width:45%;
+}
+
+.partners ul li .img-holder {
+  height:100px;
+}
+
+#footer .copyright {
+  width:100%;
+}
+
+#vr-signup div, #footer ul {
+  width:100%;
+  text-align:center!important;
+}
+
+#footer ul {
+  margin-left:calc(50% - 86px);
+  float:left;
+}
+
+#footer {
+  height:280px;
+  padding-left:0;
+  padding-right:0;
+}
+
+#footer .copyright p, #footer p#powered-by {
+  text-align:center;
+}
+
+#footer p#powered-by {
+  width:100%;
+}
+
+#footer .copyright p:last-child {
+  width:98%;
+}
+
+#vr-signup div {
+  line-height:30px;
+}
+
+#vr-signup span {
+  width:100%;
+  float:left;
+}
+
+}
+@media (max-width: 420px) {
+
+#header .logo a {
+  max-width:250px;
+  background-size:250px auto!important;
+}
+
+.partners ul {
+  width:100%;
+  margin:0!important;
+  padding:0!important;
+}
+
+.partners > div:not(#featured_on) ul li:last-child, .partners > div:not(#featured_on) ul li:nth-last-child(2), .partners ul li {
+  width:100%;
+}
+
+}
+body.geo #header {
+  border-bottom-color:#f6871f!important;
+}
+
+body:not(.about):not(.projects) div#wrapper:not(.home) #header {
+  border-bottom:1px solid;
+}
+
+body.geo h2.tool {
+  color:#f6871f!important;
+}
+
+h2.tool {
+  float:left!important;
+  font-size:26px;
+  text-transform:capitalize;
+  font-weight:bold;
+}
+
+h2.tool {
+  margin-left:54px;
+}
+
+body.geo.calendar h2.tool::before {
+  background:url("https://www.probono.net/ian2018-assets/images/icons/calendar_icon_orange.png") no-repeat;
+}
+
+h2.tool:before {
+  position:absolute;
+  content:"";
+}
+
+h2.tool:before {
+  left:0;
+  top:45px;
+}
+
+body.calendar h2.tool:before {
+  background-size:42px 42px!important;
+  width:42px;
+  height:42px;
+}
+
+.hideInMobile.link {
+  text-transform:uppercase;
+  font-size:12px!important;
+}
+
+body.geo .hideInMobile.link {
+  color:#f6871f!important;
+}
+
+body.geo .hideInMobile.link:after {
+  color:#f6871f!important;
+}
+
+content-display.calendarApp .asCalendar ul .date, content-display.calendarApp .asCalendar ul .date .date-number {
+  color:#000!important;
+  font-size:30px!important;
+  line-height:18px;
+  font-weight:bold;
+  padding:0!important;
+  margin-right:50px!important;
+  border:none;
+}
+
+content-display .link {
+  color:#00BAD4!important;
+}
+
+content-display.calendarApp .asCalendar ul .content-title a {
+  color:#000;
+  font-size:20px;
+  line-height:23px;
+}
+
+body:not(.library) .content-info:before {
+  position:absolute;
+  content:"";
+  width:5px;
+  height:77px;
+  left:97px;
+}
+
+body.geo:not(.library) .content-info:before {
+  background:#F6A01F;
+}
+
+content-display .list .filters .filter-indicator {
+  display:none;
+}
+
+content-display .list .hotspot {
+  text-transform:uppercase;
+  font-size:12px!important;
+  margin-right:20px;
+  color:#1f1f1f!important;
+}
+
+content-display .list .hotspot::after {
+  border-color:#1f1f1f transparent transparent transparent!important;
+}
+
+content-display .list .filters, content-display.calendarApp .asCalendar ul .date, .filters::before {
+  background:#fff!important;
+}
+
+.filters {
+  box-shadow:0px 0px 11px rgba(0,  0,  0,  0.13);
+  width:calc(100% - 6px);
+  margin-left:3px!important;
+  border-radius:4px;
+}
+
+body.geo.calendar .rcevent span.link {
+  color:#00BAD4!important;
+}
+
+content-display .list li {
+  border-color:#DADADA!important;
+  padding:10px 0;
+}
+
+a.shortcut {
+  color:#00BAD4!important;
+}
+
+content-display .filter-indicator::after, content-display.calendarApp .asCalendar ul .hasCle, content-display.calendarApp .small-calendar .asCalendar .fc-body .rcHasEvent, content-display.calendarApp .small-calendar .asCalendar .fc-body .fc-other-month {
+  color:#fff;
+}
+
+body.geo content-display.calendarApp .asCalendar ul .hasCle {
+  background-color:#00BAD4!important;
+}
+
+.page-tools.hmenu > li::before, content-display.calendarApp .small-calendar .asCalendar .fc-body td {
+  background-color:#fff;
+}
+
+.page-tools.hmenu > li > a, .page-tools.hmenu > li > a:before, content-display .showing {
+  color:#7a7870!important;
+}
+
+content-display .list .hotspot::after {
+  border-color:inherit transparent transparent transparent!important;
+}
+
+body.geo content-display .selected-filter {
+  background-color:#fdeace!important;
+}
+
+content-display.calendarApp .asCalendar ul .rcevent {
+  border:none!important;
+  box-shadow:0px 0px 11px rgba(0,  0,  0,  0.13);
+  margin:10px 4px 24px!important;
+  padding:20px!important;
+  border-radius:4;
+}
+
+content-display.calendarApp .asCalendar ul .event-info {
+  color:#6D6D6D!important;
+}
+
+content-display.calendarApp .asCalendar ul .event-info {
+  font-size:14px!important;
+}
+
+content-display.calendarApp .small-calendar .date-control {
+  border-color:#423e46!important;
+}
+
+content-display.calendarApp .small-calendar .date-control a::after {
+  border-color:transparent #000000 transparent transparent;
+}
+
+content-display.calendarApp .small-calendar .date-control a.rcnext::after {
+  border-color:transparent transparent transparent #423e46;
+}
+
+.ui-widget-header {
+  border-color:#002b58!important;
+  background:##D0D8E0 url("https://www.probono.net/ian2018-assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x!important;
+  color:#423e46!important;
+}
+
+content-display.calendarApp .small-calendar .asCalendar .fc-body td {
+  border-color:#1f1f1f!important;
+}
+
+body.geo content-display.calendarApp .small-calendar .asCalendar .fc-body .rcHasFocus, body.geo content-display.calendarApp .small-calendar .keyHasFocus::before {
+  background-color:#EFEFEF!important;
+}
+
+body.geo content-display.calendarApp .small-calendar .asCalendar .fc-body .rcHasEvent.rcHasFocus, body.geo content-display.calendarApp .small-calendar .keyHasEvent.keyHasFocus::before {
+  background-color:#F6871F!important;
+}
+
+body.geo content-display.calendarApp .small-calendar .asCalendar .fc-body .fc-today, body.geo content-display.calendarApp .small-calendar .asCalendar .fc-body .rcHasFocus.fc-today, body.geo content-display.calendarApp .small-calendar .keyToday::before {
+  background-color:#fdeace!important;
+}
+
+.calendar .page-tools.hmenu {
+  top:-60px!important;
+}
+
+.calendar .head-Date .page-tools.hmenu {
+  top:0px!important;
+}
+
+#header .logo a {
+  max-width:250px;
+  background-size:250px auto!important;
+}
+
+.partners ul {
+  width:100%;
+  margin:0!important;
+  padding:0!important;
+}
+
+.partners > div:not(#featured_on) ul li:last-child, .partners > div:not(#featured_on) ul li:nth-last-child(2), .partners ul li, .partners ul li .text {
+  width:100%;
+}
+
+.partners ul li .img-holder {
+  height:90px;
+}
+
+.partners ul li img {
+  margin:0!important;
+}
+
+}
+body.geo #header {
+  border-bottom-color:#f6871f!important;
+}
+
+@media (max-width: 980px) {
+
+content-display.calendarApp .small-calendar .date-control .month {
+  font-size:16px;
+  margin:0;
+}
+
+}
+@media only screen and (max-width: 767px) {
+
+#m-header .tool {
+  float:none;
+  width:auto;
+  font-size:19px;
+}
+
+.page-tools.hmenu .first {
+  display:none;
+}
+
+.page-tools.hmenu {
+  top:12px;
+}
+
+.page-tools.hmenu {
+  bottom:-25px;
+}
+
+.page-tools.hmenu:not(.lower) {
+  top:55px;
+}
+
+.page-tools.hmenu {
+  text-align:right;
+}
+
+content-display .list .filters {
+  z-index:10;
+}
+
+}
+/*! CSS Used from: https://www.immigrationadvocates.org/scripts/modelProject/src/assets/styles.css ;
+   media=all */
+.related-content {
+  clear:both;
+}
+
+content-display {
+  display:block;
+  width:100%;
+}
+
+content-display .selected-filters {
+  width:80%;
+}
+
+content-display .list {
+  padding:24px 20px 10px;
+}
+
+content-display .list .filters {
+  position:absolute;
+  right:0;
+  width:90px;
+  background:none;
+  padding:0;
+  -webkit-transition:width .3s ease;
+  transition:width .3s ease;
+}
+
+content-display .list .filters .filter-indicator {
+  background:#bbb;
+  padding:16px 5px 11px 10px;
+  margin:0;
+  float:none;
+  display:block;
+  font-size:12px;
+}
+
+content-display .list .filters .rcMenu {
+  width:260px;
+  -webkit-transform:translate(100%,  0);
+  -ms-transform:translate(100%,  0);
+  transform:translate(100%,  0);
+  position:static;
+  margin:0;
+  background:#ededed;
+}
+
+content-display .list .filters .hotspot {
+  background:#ededed;
+  font-size:14px;
+  padding:13px 39px 11px;
+  border:solid #bbb;
+  border-width:0 1px 1px 1px;
+  line-height:20px;
+}
+
+content-display .list .filters .hotspot:after {
+  position:absolute;
+  content:">";
+  right:34px;
+  color:#fff;
+  font-size:16px;
+  border:0;
+  top:14px;
+  display:block;
+  text-decoration:none;
+  overflow:hidden;
+  width:9px;
+  height:15px;
+}
+
+content-display.calendarApp .asCalendar ul .date > div, content-display.calendarApp .asCalendar ul .date > div > span.date-number {
+  display:inline;
+}
+
+content-display .hideInDesktop {
+  margin-bottom:9px;
+  display:block;
+  width:100%;
+  z-index:30;
+  position:relative;
+}
+
+content-display .hideInMobile {
+  display:none;
+}
+
+content-display .small-calendar {
+  float:right;
+  text-align:center;
+  border-left:none;
+}
+
+content-display.calendarApp .small-calendar .date-control {
+  border:none;
+}
+
+content-display.calendarApp .small-calendar {
+  float:none;
+  margin:0 auto;
+  width:280px;
+}
+
+content-display.calendarApp .small-calendar .date-control a:after {
+  top:3px;
+}
+
+content-display.calendarApp .asCalendar {
+  padding:0 20px;
+}
+
+content-display.calendarApp .small-calendar .date-control {
+  border-width:1px;
+  padding:7px 8px 4px;
+}
+
+content-display.calendarApp .asCalendar ul .rcevent {
+  border:0;
+  padding:12px 0 0;
+  width:100%;
+}
+
+content-display.calendarApp .asCalendar ul .date {
+  float:none;
+  width:100%;
+  border-radius:0;
+  padding:3px 6px;
+  text-align:left;
+  margin:0 0 9px;
+}
+
+content-display.calendarApp .asCalendar ul .date-number {
+  font-size:14px;
+  font-weight:normal;
+}
+
+content-display.calendarApp .asCalendar ul .content-title {
+  font-size:14px;
+  line-height:16px;
+}
+
+content-display.calendarApp .asCalendar ul .event-info .organization + div {
+  display:none;
+}
+
+content-display.calendarApp .asCalendar ul .hasCle {
+  margin:0 8px 2px 0;
+}
+
+content-display.calendarApp .asCalendar ul .event-info {
+  font-size:12px;
+  line-height:15px;
+  padding-top:3px;
+}
+
+content-display.calendarApp .list {
+  padding:24px 20px 20px;
+  display:inline;
+}
+
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/tools2.css ;
+   media=all */
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/fullcalendar.min.css ;
+   media=all */
+content-display .list .filters .rcMenu .rcMenuItem::before {
+  top:15px;
+  left:15px;
+}
+
+content-display .list .filters .rcMenu .rcMenuItem:before {
+  top:15px;
+  left:15px;
+}
+
+content-display .list .filters .rcMenu.active {
+  z-index:100;
+  position:absolute;
+}
+
+content-display .list .filters .rcMenu > ul {
+  ;
+       left:auto;
+  background:#ededed;
+  border:solid #bbb;
+  border-width:0 1px 1px 1px;
+  padding:0;
+  display:block;
+  position:absolute;
+  top:0;
+  -webkit-transform:translate(100%,  0);
+  -ms-transform:translate(100%,  0);
+  transform:translate(100%,  0);
+}
+
+content-display .list .filters .rcMenu.active .hotspot {
+  position:absolute;
+  top:-43px;
+  background:#bbb;
+  border:0;
+}
+
+content-display .list .filters .rcMenu.active ul {
+  -webkit-transform:translate(0,  0);
+  -ms-transform:translate(0,  0);
+  transform:translate(0,  0);
+}
+
+content-display .list .filters .rcMenu .rcMenuItem {
+  font-size:12px;
+  font-weight:normal;
+  line-height:18px;
+  padding:12px 20px 13px;
+}
+
+content-display .list .filters .rcMenu > ul > .rcMenuItem {
+  border-top:1px solid #bbb;
+}
+
+content-display .list .filters .rcMenu .rcMenuItem:before {
+  margin-right:9px;
+}
+
+content-display .list .filters .rcMenu .rcMenuItem.rcSelected:after {
+  top:19px;
+  left:23px;
+}
+
+content-display .list .filters .rcMenu.active .hotspot:after {
+  content:"<";
+  left:13px;
+  right:auto;
+  top:11px;
+}
+
+}
+@media only screen and (max-width: 1024px) {
+
+content-display.calendarApp .small-calendar {
+  padding:0;
+}
+
+}
+@media only screen and (max-width: 980px) {
+
+content-display.calendarApp .small-calendar .date-control .month {
+  font-size:12px;
+  margin:0 5px;
+}
+
+}
+@media print, projection, screen {
+
+.ui-state-disabled {
+  cursor:default!important;
+}
+
+.ui-icon {
+  display:block;
+  text-indent:-99999px;
+  overflow:hidden;
+  background-repeat:no-repeat;
+}
+
+.ui-button {
+  display:inline-block;
+  position:relative;
+  padding:0;
+  line-height:normal;
+  margin-right:.1em;
+  cursor:pointer;
+  vertical-align:middle;
+  text-align:center;
+  overflow:visible;
+}
+
+.ui-button, .ui-button:link, .ui-button:visited, .ui-button:hover, .ui-button:active {
+  text-decoration:none;
+}
+
+button.ui-button::-moz-focus-inner {
+  border:0;
+  padding:0;
+}
+
+.ui-widget {
+  font-family:Verdana, Arial, sans-serif;
+  font-size:1.1em;
+}
+
+.ui-widget button {
+  font-family:Verdana, Arial, sans-serif;
+  font-size:1em;
+}
+
+.ui-widget-content {
+  border:1px solid #aaaaaa;
+  background:#ffffff url("https://www.immigrationadvocates.org/amp/js/jquery-ui-1.10.4.custom/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;
+  color:#222222;
+}
+
+.ui-widget-content a {
+  color:#222222;
+}
+
+.ui-widget-header {
+  border:1px solid #aaaaaa;
+  background:#cccccc url("https://www.immigrationadvocates.org/amp/js/jquery-ui-1.10.4.custom/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+  color:#222222;
+  font-weight:bold;
+}
+
+.ui-state-default {
+  border:1px solid #d3d3d3;
+  background:#e6e6e6 url("https://www.immigrationadvocates.org/amp/js/jquery-ui-1.10.4.custom/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+  font-weight:normal;
+  color:#555555;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  border:1px solid #fcefa1;
+  background:#fbf9ee url("https://www.immigrationadvocates.org/amp/js/jquery-ui-1.10.4.custom/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png") 50% 50% repeat-x;
+  color:#363636;
+}
+
+.ui-state-disabled {
+  opacity:.35;
+  filter:Alpha(Opacity=35);
+  background-image:none;
+}
+
+.ui-icon {
+  width:16px;
+  height:16px;
+}
+
+.ui-icon {
+  background-image:url("https://www.immigrationadvocates.org/amp/js/jquery-ui-1.10.4.custom/css/smoothness/images/ui-icons_222222_256x240.png");
+}
+
+.ui-state-default .ui-icon {
+  background-image:url("https://www.immigrationadvocates.org/amp/js/jquery-ui-1.10.4.custom/css/smoothness/images/ui-icons_888888_256x240.png");
+}
+
+.ui-icon-circle-triangle-e {
+  background-position:-48px -192px;
+}
+
+.ui-icon-circle-triangle-w {
+  background-position:-80px -192px;
+}
+
+.ui-corner-left {
+  border-top-left-radius:4px;
+}
+
+.ui-corner-right {
+  border-top-right-radius:4px;
+}
+
+.ui-corner-left {
+  border-bottom-left-radius:4px;
+}
+
+.ui-corner-right {
+  border-bottom-right-radius:4px;
+}
+
+}
+/*! CSS Used from: Embedded */
+#cover {
+  position:fixed;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background:white;
+  opacity:100%;
+  z-index:9999;
+  -webkit-transition:opacity .3s;
+  transition:opacity .3s;
+}
+
+.js-slide-hidden {
+  position:absolute!important;
+  left:-9999px!important;
+  top:-9999px!important;
+  display:block!important;
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family:'din_mediumregular';
+  src:url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.eot');
+  src:url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.eot#iefix') format('embedded-opentype'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.woff2') format('woff2'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.woff') format('woff'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.ttf') format('truetype'),   		 url('https://www.immigrationadvocates.org/styles/fonts/din-medium-webfont.svg#din_mediumregular') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Udc1UAw.woff2) format('woff2');
+  unicode-range:U+0460-052F,  U+1C80-1C88,  U+20B4,  U+2DE0-2DFF,  U+A640-A69F,  U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0ddc1UAw.woff2) format('woff2');
+  unicode-range:U+0400-045F,  U+0490-0491,  U+04B0-04B1,  U+2116;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Vdc1UAw.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0adc1UAw.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Wdc1UAw.woff2) format('woff2');
+  unicode-range:U+0102-0103,  U+0110-0111,  U+1EA0-1EF9,  U+20AB;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Xdc1UAw.woff2) format('woff2');
+  unicode-range:U+0100-024F,  U+0259,  U+1E00-1EFF,  U+2020,  U+20A0-20AB,  U+20AD-20CF,  U+2113,  U+2C60-2C7F,  U+A720-A7FF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:italic;
+  font-weight:400;
+  src:local('Open Sans Italic'),  local('OpenSans-Italic'),  url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format('woff2');
+  unicode-range:U+0000-00FF,  U+0131,  U+0152-0153,  U+02BB-02BC,  U+02C6,  U+02DA,  U+02DC,  U+2000-206F,  U+2074,  U+20AC,  U+2122,  U+2191,  U+2193,  U+2212,  U+2215,  U+FEFF,  U+FFFD;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+  unicode-range:U+0460-052F,  U+1C80-1C88,  U+20B4,  U+2DE0-2DFF,  U+A640-A69F,  U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');
+  unicode-range:U+0400-045F,  U+0490-0491,  U+04B0-04B1,  U+2116;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format('woff2');
+  unicode-range:U+0102-0103,  U+0110-0111,  U+1EA0-1EF9,  U+20AB;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
+  unicode-range:U+0100-024F,  U+0259,  U+1E00-1EFF,  U+2020,  U+20A0-20AB,  U+20AD-20CF,  U+2113,  U+2C60-2C7F,  U+A720-A7FF;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  font-style:normal;
+  font-weight:400;
+  src:local('Open Sans Regular'),  local('OpenSans-Regular'),  url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+  unicode-range:U+0000-00FF,  U+0131,  U+0152-0153,  U+02BB-02BC,  U+02C6,  U+02DA,  U+02DC,  U+2000-206F,  U+2074,  U+20AC,  U+2122,  U+2191,  U+2193,  U+2212,  U+2215,  U+FEFF,  U+FFFD;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range:U+0460-052F,  U+1C80-1C88,  U+20B4,  U+2DE0-2DFF,  U+A640-A69F,  U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range:U+0400-045F,  U+0490-0491,  U+04B0-04B1,  U+2116;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range:U+0102-0103,  U+0110-0111,  U+1EA0-1EF9,  U+20AB;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range:U+0100-024F,  U+0259,  U+1E00-1EFF,  U+2020,  U+20A0-20AB,  U+20AD-20CF,  U+2113,  U+2C60-2C7F,  U+A720-A7FF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:400;
+  src:local('Roboto'),  local('Roboto-Regular'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range:U+0000-00FF,  U+0131,  U+0152-0153,  U+02BB-02BC,  U+02C6,  U+02DA,  U+02DC,  U+2000-206F,  U+2074,  U+20AC,  U+2122,  U+2191,  U+2193,  U+2212,  U+2215,  U+FEFF,  U+FFFD;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+  unicode-range:U+0460-052F,  U+1C80-1C88,  U+20B4,  U+2DE0-2DFF,  U+A640-A69F,  U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');
+  unicode-range:U+0400-045F,  U+0490-0491,  U+04B0-04B1,  U+2116;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+  unicode-range:U+0102-0103,  U+0110-0111,  U+1EA0-1EF9,  U+20AB;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');
+  unicode-range:U+0100-024F,  U+0259,  U+1E00-1EFF,  U+2020,  U+20A0-20AB,  U+20AD-20CF,  U+2113,  U+2C60-2C7F,  U+A720-A7FF;
+}
+
+@font-face {
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:700;
+  src:local('Roboto Bold'),  local('Roboto-Bold'),  url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+  unicode-range:U+0000-00FF,  U+0131,  U+0152-0153,  U+02BB-02BC,  U+02C6,  U+02DA,  U+02DC,  U+2000-206F,  U+2074,  U+20AC,  U+2122,  U+2191,  U+2193,  U+2212,  U+2215,  U+FEFF,  U+FFFD;
+}
+
+@font-face {
+  font-family:"picons-font";
+  src:url("https://www.immigrationadvocates.org/styles/fonts/picons-font/web/Picons-Font.ttf");
+  src:url("https://www.immigrationadvocates.org/styles/fonts/picons-font/web/Picons-Font.eof") format("embedded-opentype"),  url("https://www.immigrationadvocates.org/styles/fonts/picons-font/web/Picons-Font.ttf") format("truetype"),  url("https://www.immigrationadvocates.org/styles/fonts/picons-font/web/Picons-Font.woff") format("woff"),  url("https://www.immigrationadvocates.org/styles/fonts/picons-font/web/Picons-Font.svg") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:"picons-font";
+  src:url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/picons-font/web/Picons-Font.ttf");
+  src:url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/picons-font/web/Picons-Font.eot") format("embedded-opentype"),  url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/picons-font/web/Picons-Font.ttf") format("truetype"),  url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/picons-font/web/Picons-Font.woff") format("woff"),  url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/picons-font/web/Picons-Font.svg") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:"icomoon";
+  src:url("https://www.immigrationadvocates.org/styles/fonts/icomoon.eot?t01da0");
+  src:url("https://www.immigrationadvocates.org/styles/fonts/icomoon.eot?t01da0#iefix") format("embedded-opentype"),  url("https://www.immigrationadvocates.org/styles/fonts/icomoon.ttf?t01da0") format("truetype"),  url("https://www.immigrationadvocates.org/styles/fonts/icomoon.woff?t01da0") format("woff"),  url("https://www.immigrationadvocates.org/styles/fonts/icomoon.svg?t01da0#icomoon") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:"icomoon";
+  src:url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/icomoon.eot?t01da0");
+  src:url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/icomoon.eot?t01da0#iefix") format("embedded-opentype"),       url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/icomoon.ttf?t01da0") format("truetype"),       url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/icomoon.woff?t01da0") format("woff"),       url("https://www.immigrationadvocates.org/scripts/modelProject/src/assets/fonts/icomoon.svg?t01da0#icomoon") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:"FontAwesome";
+  src:url("https://www.immigrationadvocates.org/scripts/modelProject/dist/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf");
+  src:url("https://www.immigrationadvocates.org/scripts/modelProject/dist/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eof") format("embedded-opentype"),  url("https://www.immigrationadvocates.org/scripts/modelProject/dist/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf") format("truetype"),  url("https://www.immigrationadvocates.org/scripts/modelProject/dist/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff") format("woff"),  url("https://www.immigrationadvocates.org/scripts/modelProject/dist/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:'FontAwesome';
+  src:url('https://www.immigrationadvocates.org/styles/font-awesome/4.1.0/fonts/fontawesome-webfont.eot?v=4.1.0');
+  src:url('https://www.immigrationadvocates.org/styles/font-awesome/4.1.0/fonts/fontawesome-webfont.eot#iefix&v=4.1.0') format('embedded-opentype'), url('https://www.immigrationadvocates.org/styles/font-awesome/4.1.0/fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('https://www.immigrationadvocates.org/styles/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('https://www.immigrationadvocates.org/styles/font-awesome/4.1.0/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+
+@media (max-width: 1055px) {
+
+.column-holder .column.yellow, .column-holder .column.green, .column-holder .column.blue, .news-holder .news {
+  width:calc(33% - 3px);
+}
+
+.column-holder .column.yellow, .news-holder .news#news-leadin {
+  margin-right:0px;
+}
+
+.column-holder .column.blue, .news-holder .news#events-leadin {
+  margin-left:3px;
+  margin-right:3px;
+}
+
+.column-holder .column.green, .news-holder .news#links-leadin {
+  margin-left:0px;
+}
+
+}
+@media (max-width: 710px) {
+
+.column-holder .column.yellow, .column-holder .column.green, .column-holder .column.blue, .news-holder .news {
+  margin:10px 0;
+}
+
+.column-holder {
+  text-align:center;
+  margin:0;
+}
+
+}

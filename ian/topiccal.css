@@ -1,0 +1,146 @@
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/reset2.css ; media=screen */
+@media screen{
+div,span,ul,li{margin:0;padding:0;border:0;outline:0;font-size:100%;font-family:inherit;vertical-align:baseline;background:transparent;}
+:focus{outline:0;}
+}
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/global.css */
+*{padding:0;margin:0;}
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/administrative-relief-all.css ; media=all */
+@media all{
+*,*:before,*:after{box-sizing:inherit;}
+*{max-height:100000em;}
+::-webkit-input-placeholder{color:#7a7a7a;}
+:-moz-placeholder{color:#7a7a7a;}
+::-moz-placeholder{color:#7a7a7a;opacity:1;}
+:-ms-input-placeholder{color:#7a7a7a;}
+}
+/*! CSS Used from: https://www.probono.net/ian2018-assets/ian.css */
+content-display .list .hotspot{text-transform:uppercase;font-size:12px!important;margin-right:20px;color:#1f1f1f!important;}
+content-display .list .hotspot::after{border-color:#1f1f1f transparent transparent transparent!important;}
+content-display .list .filters .rcMenu ul{background:#fff!important;}
+content-display .list .filters .rcMenu ul{box-shadow:0px 8px 8px rgba(0, 0, 0, 0.13)!important;border-radius:4;}
+content-display .list li{border-color:#DADADA!important;padding:10px 0;}
+content-display .list .hotspot::after{border-color:inherit transparent transparent transparent!important;}
+content-display .list .filters .rcMenu .rcMenuItem::before{border:1px solid #000;}
+content-display .list .filters .rcMenu.active .hotspot::after{border-color:#000 transparent transparent transparent;}
+@media (max-width: 767px){
+body.geo content-display .list .filters .hotspot,body.geo content-display .list .filters .rcMenu.active .rcMenuItem{background-color:#fef2e7!important;}
+body.geo content-display .list .filters .hotspot,body.geo content-display .list .filters .rcMenu.active .rcMenuItem,body.geo content-display .list .filters .rcMenu.active .hotspot{border-color:#f57c0a!important;}
+content-display .list .filters .hotspot{margin-right:0!important;}
+body.geo content-display .list .filters .rcMenu.active,body.geo content-display .list .filters .rcMenu.active .hotspot{background-color:#f57c0a!important;}
+content-display .list .filters .rcMenu.active .hotspot,content-display .list .filters .rcMenu.active .hotspot:after{color:#fff!important;}
+}
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/tools2.css ; media=all */
+@media all{
+ul{-webkit-padding-start:0;-webkit-margin-after:0;-webkit-margin-before:0;}
+content-display .list .filters .rcMenu > ul{top:32px;}
+content-display .rcMenu > ul{margin-top:10px;padding-top:0!important;width:200px;}
+content-display .list .filters .rcMenu .rcMenuItem{white-space:normal;word-break:keep-all;color:#000;padding-left:25px;}
+content-display .list .filters .rcMenu .rcMenuItem::before{left:-16px;}
+content-display .hotspot:hover{cursor:pointer;text-decoration:none;}
+content-display .hotspot{font-size:13px;}
+content-display .list .filters .rcMenuItem{font-weight:normal;font-size:13px;}
+.list ul{padding-left:0;}
+content-display li:hover{cursor:unset;}
+content-display .list .filters .rcMenu .rcMenuItem{margin:0;padding-right:18px;}
+content-display .list .filters .rcMenu .rcMenuItem:before{position:absolute;top:8px;left:8px;}
+content-display .list .hotspot::after{border-color:#fff transparent transparent transparent;}
+content-display .list .filters .rcMenu ul{background:#d3db9c;}
+content-display .list .filters .rcMenu .rcMenuItem::before{border:1px solid #000;}
+content-display .list .filters .rcMenu.active .hotspot::after{border-color:#000 transparent transparent transparent;}
+@media (max-width: 940px){
+content-display .rcMenu > ul{margin-top:10px;padding-top:0!important;}
+}
+@media (max-width: 767px){
+content-display .list .filters .rcMenu.active .hotspot::after{top:12px!important;font-size:18px!important;}
+content-display .list .filters .hotspot{font-weight:normal;}
+content-display .rcMenu > ul{top:0!important;width:unset;}
+content-display .list .filters .rcMenu.active .hotspot{position:relative;top:-46px;border:1px solid #bbb;font-weight:bold;}
+content-display .list .filters .rcMenu.active .hotspot::after{color:#fff;}
+content-display .list .filters .rcMenu.active .rcMenuItem{width:260px;white-space:normal;word-break:keep-all;}
+content-display .list .filters .rcMenu.active .rcMenuItem{padding-left:40px;}
+content-display .list .filters .rcMenu .rcMenuItem > span:first-child:before{top:15px!important;left:15px!important;}
+}
+@media (max-width: 767px){
+content-display .list .filters .hotspot,content-display .list .filters .rcMenu.active .rcMenuItem{background:#F4F6E7;border-color:#d3db9c;}
+content-display .list .filters .hotspot::after{color:inherit;}
+content-display .list .filters .rcMenu.active .hotspot{background:#d3db9c;border-color:#d3db9c;}
+}
+@media only screen and (max-width: 767px){
+content-display .list .filters .rcMenu .rcMenuItem::before{top:15px;left:15px;}
+content-display .list .filters .rcMenu .rcMenuItem:before{top:15px;left:15px;}
+}
+}
+/*! CSS Used from: https://www.immigrationadvocates.org/scripts/modelProject/src/assets/styles.css ; media=all */
+@media all{
+content-display .filters .rcMenu{float:left;margin:0 8px;font-size:smaller;}
+content-display .rcMenu > ul{padding:0;background-color:white;border:1px solid grey;position:absolute;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);}
+content-display .rcMenuItem{border:1px solid #DEDEDE;}
+content-display li{margin:.5em;list-style:none;overflow:hidden;}
+content-display .list li{margin:.5em 0;border-top:1px solid black;}
+content-display .rcMenu > ul > li:hover{background-color:#EFEFEF;cursor:pointer;}
+content-display li:hover{cursor:pointer;}
+content-display .hotspot:hover{cursor:pointer;text-decoration:underline;}
+content-display .list .filters .rcMenu{margin:3px 8px 0;font-weight:bold;position:relative;}
+content-display .list .hotspot:after{display:inline-block;vertical-align:middle;content:"";width:0;height:0;border-style:solid;border-width:6px 5.5px 0 5.5px;border-color:#efefef transparent transparent transparent;margin-left:6px;}
+content-display .list .filters .rcMenu.active .hotspot:after{border-color:#000 transparent transparent transparent;}
+content-display .list .filters .rcMenu > ul{min-width:133px;background:#bbb;border:0;left:-9px;padding:11px 0 5px;margin:0;box-shadow:0 0 0;max-height:265px;overflow-y:auto;overflow-x:hidden;}
+content-display .list .filters .rcMenu .rcMenuItem{border:0;padding:3px 9px;white-space:nowrap;color:#000;position:relative;}
+content-display .list .filters .rcMenu > ul > .rcMenuItem > span:first-child{position:relative;}
+content-display .list .filters .rcMenu .rcMenuItem:before{border-radius:0;}
+content-display .list .filters .rcMenu .rcMenuItem:before{position:absolute;left:9px;top:5px;display:inline-block;vertical-align:top;content:"";border:1px solid #000;width:10px;height:10px;margin:0 6px 0 0;}
+@media only screen and (max-width: 767px){
+content-display .list .filters .rcMenu{width:260px;-webkit-transform:translate(100%, 0);-ms-transform:translate(100%, 0);transform:translate(100%, 0);position:static;margin:0;background:#ededed;}
+content-display .list .filters .rcMenu.active{z-index:100;position:absolute;}
+content-display .list .filters .rcMenu > ul{;     left:auto;background:#ededed;border:solid #bbb;border-width:0 1px 1px 1px;padding:0;display:block;position:absolute;top:0;-webkit-transform:translate(100%, 0);-ms-transform:translate(100%, 0);transform:translate(100%, 0);}
+content-display .list .filters .rcMenu.active .hotspot{position:absolute;top:-43px;background:#bbb;border:0;}
+content-display .list .filters .rcMenu.active ul{-webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);transform:translate(0, 0);}
+content-display .list .filters .rcMenu .rcMenuItem{font-size:12px;font-weight:normal;line-height:18px;padding:12px 20px 13px;}
+content-display .list .filters .rcMenu > ul > .rcMenuItem{border-top:1px solid #bbb;}
+content-display .list .filters .rcMenu .rcMenuItem:before{margin-right:9px;}
+content-display .list .filters .hotspot{background:#ededed;font-size:14px;padding:13px 39px 11px;border:solid #bbb;border-width:0 1px 1px 1px;line-height:20px;}
+content-display .list .filters .hotspot:after{position:absolute;content:">";right:34px;color:#fff;font-size:16px;border:0;top:14px;display:block;text-decoration:none;overflow:hidden;width:9px;height:15px;}
+content-display .list .filters .rcMenu.active .hotspot:after{content:"<";left:13px;right:auto;top:11px;}
+}
+}
+/*! CSS Used from: https://www.immigrationadvocates.org/styles/tools2.css ; media=all */
+@media all{
+ul{-webkit-padding-start:0;-webkit-margin-after:0;-webkit-margin-before:0;}
+content-display .list .filters .rcMenu > ul{top:32px;}
+content-display .rcMenu > ul{margin-top:10px;padding-top:0!important;width:200px;}
+content-display .list .filters .rcMenu .rcMenuItem{white-space:normal;word-break:keep-all;color:#000;padding-left:25px;}
+content-display .list .filters .rcMenu .rcMenuItem::before{left:-16px;}
+content-display .hotspot:hover{cursor:pointer;text-decoration:none;}
+content-display .hotspot{font-size:13px;}
+content-display .list .filters .rcMenuItem{font-weight:normal;font-size:13px;}
+.list ul{padding-left:0;}
+content-display li:hover{cursor:unset;}
+content-display .list .filters .rcMenu .rcMenuItem{margin:0;padding-right:18px;}
+content-display .list .filters .rcMenu .rcMenuItem:before{position:absolute;top:8px;left:8px;}
+content-display .list .hotspot::after{border-color:#fff transparent transparent transparent;}
+content-display .list .filters .rcMenu ul{background:#d3db9c;}
+content-display .list .filters .rcMenu .rcMenuItem::before{border:1px solid #000;}
+content-display .list .filters .rcMenu.active .hotspot::after{border-color:#000 transparent transparent transparent;}
+@media (max-width: 940px){
+content-display .rcMenu > ul{margin-top:10px;padding-top:0!important;}
+}
+@media (max-width: 767px){
+content-display .list .filters .rcMenu.active .hotspot::after{top:12px!important;font-size:18px!important;}
+content-display .list .filters .hotspot{font-weight:normal;}
+content-display .rcMenu > ul{top:0!important;width:unset;}
+content-display .list .filters .rcMenu.active .hotspot{position:relative;top:-46px;border:1px solid #bbb;font-weight:bold;}
+content-display .list .filters .rcMenu.active .hotspot::after{color:#fff;}
+content-display .list .filters .rcMenu.active .rcMenuItem{width:260px;white-space:normal;word-break:keep-all;}
+content-display .list .filters .rcMenu.active .rcMenuItem{padding-left:40px;}
+content-display .list .filters .rcMenu .rcMenuItem > span:first-child:before{top:15px!important;left:15px!important;}
+}
+@media (max-width: 767px){
+content-display .list .filters .hotspot,content-display .list .filters .rcMenu.active .rcMenuItem{background:#F4F6E7;border-color:#d3db9c;}
+content-display .list .filters .hotspot::after{color:inherit;}
+content-display .list .filters .rcMenu.active .hotspot{background:#d3db9c;border-color:#d3db9c;}
+}
+@media only screen and (max-width: 767px){
+content-display .list .filters .rcMenu .rcMenuItem::before{top:15px;left:15px;}
+content-display .list .filters .rcMenu .rcMenuItem:before{top:15px;left:15px;}
+}
+}

@@ -23,7 +23,5 @@
     "url": "https://github.com/dcoli/mergecss/issues"
   },
   "homepage": "https://github.com/dcoli/mergecss#readme",
-  "dependencies": {
-    "execa": "^1.0.0"
-  }
+  "dependencies": {}
 }

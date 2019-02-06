@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const util = require('util');
+// var CSSSteal = require('css-steal');
+// var ape = require('./ape');
+// var css = CSSSteal(document.querySelector('.my-class'));
+// css.toCSSText(); // produces formatted CSS styles
+// css.toJS(): // returns an array of objects containing the styles
 // const execa = require('execa');
 
 const readFile = util.promisify(fs.readFile);
@@ -41,15 +46,26 @@ async function read1 (file) {
 }
 
 async function cleanup( line ) {
-  line.replace('{',' {\n  ');
-  line.replace(';',';\n  ');
-  line.replace('  }','}');
-  console.log('ya');
-  return line;
+  var outline = "";
+  outline = line.replace(/\{/g,' {\n  ');
+  outline = outline.replace(/\,/g,', ');
+  outline = outline.replace(/;/g,';\n  ');
+  outline = outline.replace(/\s\s\}/g,'}\n');
+  // console.log('ya');
+  return outline;
 }
 
-let dir = process.argv[2] || './';
+
+let url = process.argv[2];
+let dir = process.argv[3] || './';
+
+// ape.callapify(url);
+// return;
+
 readdir(dir).then( async function(files) {
+  fs.unlinkSync("out.css");
+  let stream = fs.createWriteStream("out.css", {flags:'a'});
+
 	console.log(dir);
 	for( let file of files.filter(file => /\.css$/.test(file)) ) {
 		console.log(file);
@@ -59,13 +75,14 @@ readdir(dir).then( async function(files) {
   // console.log(mediaMap);
   let globals = [...mediaMap.all].join('\n')
   // console.log();
-  fs.writeFileSync('out.css',globals);
+
+  // fs.writeFileSync('out.css',globals);
     // .catch(e,() => { console.log('whoops'); });
   for( let medi in mediaMap ) {
     if( medi !== 'all' ) {
-      fs.writeFileSync('out.css','\n@media '+medi+' {');
+      stream.write('\n@media '+medi+' {\n\n');
       // console.log('\n@media '+medi+' {');
-      fs.writeStreamSync('out.css',([...mediaMap[medi]].join('\n').toString()));
+      stream.write([...mediaMap[medi]].join('\n'));
       // console.log([...mediaMap[medi]].join('\n'));
     }
   }
